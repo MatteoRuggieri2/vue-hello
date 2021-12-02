@@ -8,14 +8,25 @@
 /* COMMON */
 body{
     font-family: Verdana, sans-serif;
+    background-color: #24272e;
 }
 
 .container{
     width: 100%;
+    height: 100vh;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .container h1{
     padding: 20px;
-    font-size: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
